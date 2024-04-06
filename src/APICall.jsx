@@ -57,11 +57,14 @@ const APICall = () => {
 
         <div className="buttons">
           {/* Tweet and Tumblr links */}
-          <a className="button" id="tweet-quote" style={{ backgroundColor: backgroundColor }} title="Tweet this quote!" target="_top" href='https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22If%20you%20want%20to%20lift%20yourself%20up%2C%20lift%20up%20someone%20else.%22%20Booker%20T.%20Washington'>
-            <i className="fa fa-twitter"></i>
+          <a className="button" id="tweet-quote" style={{ backgroundColor: backgroundColor }} title="Tweet this quote!" target="_top" href='https://www.youtube.com/channel/UCZtCsouMiJC7ZK7Pl9Qk3pw'>
+            <i className="fa fa-youtube"></i>
           </a>
-          <a className="button" id="tumblr-quote" style={{ backgroundColor: backgroundColor }} title="Post this quote on tumblr!" target="_bottom" href='https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=Booker%20T.%20Washington&content=If%20you%20want%20to%20lift%20yourself%20up%2C%20lift%20up%20someone%20else.&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button'>
-            <i className="fa fa-tumblr"></i>
+          <a className="button" id="tumblr-quote" style={{ backgroundColor: backgroundColor }} title="Post this quote on tumblr!" target="_bottom" href='https://github.com/Uwihanganyeobed'>
+            <i className="fa fa-github"></i>
+          </a>
+          <a className="button" id="tumblr-quote" style={{ backgroundColor: backgroundColor }} title="Post this quote on tumblr!" target="_bottom" href='https://twitter.com/ObedUwihan12452'>
+            <i className="fa fa-twitter"></i>
           </a>
           <button className="button button-test" style={{ backgroundColor: backgroundColor }} id="new-quote" onClick={handleButtonClick}>
             New quote
