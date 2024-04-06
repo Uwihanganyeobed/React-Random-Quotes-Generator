@@ -68,7 +68,7 @@ const APICall = () => {
           </button>
         </div>
       </div>
-      <div className="footer">Designed and Deployed by <a href="https://github.com/Uwihanganyeobed">Uwihanganye Obed</a></div>
+      <div className="footer">Designed and Deployed by <a href="https://react-random-quotes-generator-silk.vercel.app/">Uwihanganye Obed</a></div>
       {/* External script dependencies */}
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
